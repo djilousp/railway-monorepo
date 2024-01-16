@@ -1,0 +1,19 @@
+{
+  "name": "railway-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "src/applications/*",
+    "src/packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "lerna": "^8.0.2"
+  }
+}
