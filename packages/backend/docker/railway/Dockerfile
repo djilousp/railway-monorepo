@@ -5,7 +5,7 @@ WORKDIR /app
 
 ### note, there is .dockerignore file in the project root which prevents `node_modules` from copying here
 COPY . .
-RUN npm i
+RUN npm ci
 
 WORKDIR /app/packages/backend/ 
 
