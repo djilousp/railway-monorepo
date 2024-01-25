@@ -8,4 +8,4 @@ COPY . .
 RUN npm ci
 
 WORKDIR /app/packages/backend/ 
-
+RUN npm ci
